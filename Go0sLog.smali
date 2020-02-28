@@ -1,6 +1,6 @@
-.class public LGo0sLog;
+.class public LSewellDinGLog;
 .super Ljava/lang/Object;
-.source "Go0sLog.java"
+.source "SewellDinGLog.java"
 
 
 # direct methods
@@ -19,11 +19,11 @@
 
     .prologue
     .line 11
-    const-string/jumbo v0, "Go0s"
+    const-string/jumbo v0, "SewellDinG"
 
     const-string/jumbo v1, "DeBug ..."
 
-    invoke-static {v0, v1}, LGo0sLog;->Log(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, LSewellDinGLog;->Log(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     return-void
@@ -35,13 +35,13 @@
 
     .prologue
     .line 15
-    const-string/jumbo v0, "Go0s"
+    const-string/jumbo v0, "SewellDinG"
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, LGo0sLog;->Log(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, LSewellDinGLog;->Log(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 16
     return-void
@@ -66,13 +66,13 @@
 
     .prologue
     .line 19
-    const-string/jumbo v0, "Go0s"
+    const-string/jumbo v0, "SewellDinG"
 
     invoke-static {p0}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, LGo0sLog;->Log(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, LSewellDinGLog;->Log(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     return-void

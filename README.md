@@ -1,6 +1,6 @@
 #### Smali插桩自用代码库
 
-Go0sLog.java —> Go0sLog.smali
+SewellDinGLog.java —> SewellDinGLog.smali
 
 1. 无参数，判断怀疑函数是否执行，如何触发，执行的顺序...
 2. 一个参数，字符串或者数组，输出怀疑函数的返回值...
@@ -9,9 +9,9 @@ Go0sLog.java —> Go0sLog.smali
 #### 插桩代码
 
 ```
-invoke-static {}, LGo0sLog;->Log()V
-invoke-static {v1}, LGo0sLog;->Log(Ljava/lang/Object;)V
-invoke-static {v1}, LGo0sLog;->Log([Ljava/lang/Object;)V
+invoke-static {}, LSewellDinGLog;->Log()V
+invoke-static {v1}, LSewellDinGLog;->Log(Ljava/lang/Object;)V
+invoke-static {v1}, LSewellDinGLog;->Log([Ljava/lang/Object;)V
 ```
 
 #### 在哪插桩？
@@ -23,5 +23,5 @@ invoke-static {v1}, LGo0sLog;->Log([Ljava/lang/Object;)V
 #### 查看日志
 
 ```
-adb logcat -s Go0s
+adb logcat -s SewellDinG
 ```

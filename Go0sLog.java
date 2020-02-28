@@ -1,22 +1,22 @@
 import java.util.Arrays;
 import android.util.Log;
 
-public class Go0sLog {
+public class SewellDinGLog {
 
 	public static void Log(String tag, String msg) {
 		Log.d(tag, msg);
 	}
 
 	public static void Log() {
-		Log("Go0s", "DeBug ...");
+		Log("SewellDinG", "DeBug ...");
 	}
 
 	public static void Log(Object someObj) {
-		Log("Go0s", someObj.toString());
+		Log("SewellDinG", someObj.toString());
 	}
 
 	public static void Log(Object[] someObj) {
-		Log("Go0s", Arrays.toString(someObj));
+		Log("SewellDinG", Arrays.toString(someObj));
 	}
 
 }
